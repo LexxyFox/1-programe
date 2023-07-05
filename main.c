@@ -4,21 +4,21 @@ int main() {
     int t1, t2, t3;
     float time;
 
-    // User inputs
-    printf("Enter the time for the first guest (t1): ");
+    // дані користувача
+    printf("Укажіть час для першого гостя: ");
     scanf("%d", &t1);
 
-    printf("Enter the time for the second guest (t2): ");
+    printf("Укажіть час для другого гостя: ");
     scanf("%d", &t2);
 
-    printf("Enter the time for the third guest (t3): ");
+    printf("Укажіть час для третього гостя: ");
     scanf("%d", &t3);
 
-    // Calculate total time
+    // розрахунок сумарного часу
     time = 1.0 / t1 + 1.0 / t2 + 1.0 / t3;
 
-    // Output the result
-    printf("The time it takes for the guests to finish the cake: %.2f hours\n", 1 / time);
+    // вивод результатів
+    printf("Час, необхідний для того, щоб гості доїли торт: %.2f hours\n", 1 / time);
 
     return 0;
 }
